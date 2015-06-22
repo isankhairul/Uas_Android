@@ -10,7 +10,7 @@
 	    android:orientation="vertical" >
 
 	   <ImageView
-	       android:id="@+id/cbPicView"
+	       android:id="@+id/banner"
 	       android:layout_width="wrap_content"
 	       android:layout_height="wrap_content"
 	       android:layout_gravity="center_horizontal"
@@ -26,7 +26,7 @@
     android:layout_weight="1">
 
     <Button
-      android:id="@+id/cbPrevPicView2"
+      android:id="@+id/mountainInfo"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:background="@drawable/info"
@@ -35,7 +35,7 @@
       android:layout_margin="1dp"/>
 
     <Button
-      android:id="@+id/cbNextPicView2"
+      android:id="@+id/equipment"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:background="@drawable/perlengkapan"
@@ -50,7 +50,7 @@
     android:layout_weight="1">
 
     <Button
-      android:id="@+id/cbPrevPicView3"
+      android:id="@+id/prepare"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:background="@drawable/persiapan"
@@ -59,7 +59,7 @@
       android:layout_margin="1dp"/>
 
     <Button
-      android:id="@+id/cbNextPicView3"
+      android:id="@+id/mountainMap"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:background="@drawable/jalur"

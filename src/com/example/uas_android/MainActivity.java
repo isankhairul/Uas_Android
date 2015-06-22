@@ -1,16 +1,35 @@
 package com.example.uas_android;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends Activity {
 
+	Button mountainInfo, equipment, prepare, mountainMap;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
+		mountainInfo=(Button) findViewById(R.id.mountainInfo);
+		equipment=(Button) findViewById(R.id.equipment);
+		prepare=(Button) findViewById(R.id.prepare);
+		mountainMap=(Button) findViewById(R.id.mountainMap);
+		
+		mountainInfo.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				//Open form 
+				  Intent in = new Intent(getApplicationContext(), MountainInfoActivity.class);
+				  startActivity(in);
+			}
+		});
 	}
 
 	@Override
