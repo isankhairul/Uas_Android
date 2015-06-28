@@ -25,8 +25,31 @@ public class MainActivity extends Activity {
 		mountainInfo.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				//Open form 
 				  Intent in = new Intent(getApplicationContext(), MountainInfoActivity.class);
+				  startActivity(in);
+			}
+		});
+		
+		mountainMap.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				  Intent in = new Intent(getApplicationContext(), MountainMapActivity.class);
+				  startActivity(in);
+			}
+		});
+		
+		equipment.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				  Intent in = new Intent(getApplicationContext(), EquipmentActivity.class);
+				  startActivity(in);
+			}
+		});
+		
+		prepare.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				  Intent in = new Intent(getApplicationContext(), PrepareActivity.class);
 				  startActivity(in);
 			}
 		});

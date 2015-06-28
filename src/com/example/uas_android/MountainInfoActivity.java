@@ -84,7 +84,7 @@ public class MountainInfoActivity extends Activity{
 		//create an ArrayAdaptar from the String Array
 		
 		dataAdapter = new MyCustomAdapter(this,
-		   R.layout.mountain_information_row, mList);
+		   R.layout.mountain_info_row, mList);
 		ListView listView = (ListView) findViewById(R.id.listView1);
 		// Assign adapter to ListView
 		listView.setAdapter(dataAdapter);
@@ -155,7 +155,7 @@ public class MountainInfoActivity extends Activity{
 			
 			   LayoutInflater vi = (LayoutInflater)getSystemService(
 			     Context.LAYOUT_INFLATER_SERVICE);
-			   convertView = vi.inflate(R.layout.mountain_information_row, null);
+			   convertView = vi.inflate(R.layout.mountain_info_row, null);
 			
 			   holder = new ViewHolder();
 			   holder.MountainPictSmall = (ImageView) convertView.findViewById(R.id.MountainPictSmall);

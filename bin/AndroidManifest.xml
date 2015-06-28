@@ -35,6 +35,26 @@
             android:name=".MountainInfoDetailActivity"
             android:label="@string/title_activity_mountain_info_detail" >
         </activity>
+        <activity
+            android:name=".MountainMap"
+            android:label="@string/title_activity_mountain_map" >
+        </activity>
+        <activity
+            android:name=".MountainMapActivity"
+            android:label="@string/title_activity_mountain_map" >
+        </activity>
+        <activity
+            android:name=".MountainMapDetailActivity"
+            android:label="@string/title_activity_mountain_map_detail" >
+        </activity>
+        <activity
+            android:name=".EquipmentActivity"
+            android:label="@string/title_activity_equipment" >
+        </activity>
+        <activity
+            android:name=".PrepareActivity"
+            android:label="@string/title_activity_prepare" >
+        </activity>
     </application>
 
 </manifest>
