@@ -55,6 +55,10 @@
             android:name=".PrepareActivity"
             android:label="@string/title_activity_prepare" >
         </activity>
+        <activity
+            android:name=".PrepareDetailActivity"
+            android:label="@string/title_activity_prepare_detail" >
+        </activity>
     </application>
 
 </manifest>
